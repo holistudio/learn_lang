@@ -1,0 +1,16 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+ipywidgets
+ipykernel
+seaborn
+requests
+beautifulsoup4
+sqlalchemy
+ipython-sql
+wget
+folium
+plotly
+dash
+dotenv
