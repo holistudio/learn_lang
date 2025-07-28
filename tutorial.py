@@ -13,3 +13,12 @@ from langchain.chat_models import init_chat_model
 model = init_chat_model("gemini-2.0-flash", model_provider="google_genai")
 
 print(model.invoke("Hello, world!"))
+
+from langchain_core.messages import HumanMessage, SystemMessage
+
+messages = [
+    SystemMessage("Translate the following from English into Italian"),
+    HumanMessage("hi!"),
+]
+
+print(model.invoke(messages))
