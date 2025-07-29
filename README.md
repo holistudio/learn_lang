@@ -17,5 +17,8 @@ pip install -qU "langchain[google-genai]"
 
 ```
 GOOGLE_API_KEY=(your Gemini API Key here)
+LANGSMITH_API_KEY=(your LangSmith API Key here)
+LANGSMITH_TRACING=true
+LANGSMITH_PROJECT=default (or LangSmith project name)
 ```
 
