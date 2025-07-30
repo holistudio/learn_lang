@@ -13,6 +13,10 @@ pip install -r requirements.txt
 pip install -qU "langchain[google-genai]"
 ```
 
+```
+pip install langchain-core langgraph>0.2.28
+```
+
 `.env` file:
 
 ```
